@@ -220,7 +220,7 @@ calcule.addEventListener("click", function() {
     saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você está no peso ideal!`;
   } else if (imc < 30) {
     saida.style.backgroundColor = '#FFD700';
-    saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você está com sobre peso`
+    saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você está com sobrepeso`
   } else if (imc < 35) {
     saida.style.backgroundColor = '#FF8C00';
     saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você tem uma obesidade grau 1!`;
