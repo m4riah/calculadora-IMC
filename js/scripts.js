@@ -214,7 +214,7 @@ calcule.addEventListener("click", function() {
 
   if (imc < 18.5) {
     saida.style.backgroundColor = '#00BFFF';
-    saida.textContent = `Olá ${nome}! Você tem ${idae} anos e seu IMC é: ${imc}, você está abaixo do peso ideal!`;
+    saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você está abaixo do peso ideal!`;
   } else if (imc < 25) {
     saida.style.backgroundColor = '#3CB371';
     saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você está no peso ideal!`;
@@ -290,7 +290,7 @@ pesoNormal.style.justifyContent = "center";
 
 const sobrePeso = document.createElement("div");
 legenda.appendChild(sobrePeso);
-sobrePeso.textContent = "Sobre peso";
+sobrePeso.textContent = "Sobrepeso";
 sobrePeso.style.backgroundColor = "#FFD700";
 sobrePeso.style.width = "15%";
 sobrePeso.style.width = "99px";
