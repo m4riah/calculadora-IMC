@@ -228,13 +228,13 @@ calcule.addEventListener("click", function() {
     saida.style.backgroundColor = '#FF4500';
     saida.textContent = `Olá ${nome}! Você tem ${idade} anos e seu IMC é: ${imc}, você tem uma obesidade garu 2!`;
   } else {
-    corDeFundo = '#8B0000';
+    saida.style.backgroundColor = '#8B0000';
   }
 
   const div = document.createElement("div");
   div.style.backgroundColor = corDeFundo;
   const pNnome = document.createElement("p");
-  pNnome.textContent = no;
+  pNnome.textContent = none;
   const pIdade = document.createElement("p");
   pIdade.textContent = idade;
   const pImc = document.createElement("p");
